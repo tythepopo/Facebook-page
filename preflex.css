@@ -1,0 +1,25 @@
+.body {
+    background-color: pink;
+}
+.form-now {
+    padding: 50px;
+    border: solid blue 1px;
+    margin: 20px;
+    display: flex;
+    color: blue;
+    display: flex;
+}
+.child {
+    padding: 10px;
+    flex: 1;
+    
+
+}
+
+.input {
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    
+    
+}

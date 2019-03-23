@@ -1,0 +1,16 @@
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    margin: 20px;
+    
+}
+.body > header {
+    background-color: blueviolet;
+    width: 100%;
+    white-space: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    
+}

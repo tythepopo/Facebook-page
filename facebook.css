@@ -1,0 +1,30 @@
+
+*{
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: lightskyblue;
+    
+}
+.main {
+    background-color: antiquewhite;
+    flex: 1;
+}
+.footer {
+    background-color: lightgreen;
+}
+
+.facebook {
+    background-color: lightskyblue;
+    color: white;
+    font-family: Time;
+    font-size: 20px;
+}
