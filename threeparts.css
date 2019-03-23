@@ -31,13 +31,14 @@
     display: flex;
     height: 15vh;
     background: #2c5aa0;
+    padding-right: 12%
     
 }
    .footer {
     display: flex;
     height: 28vh;
     flex-direction: column;
-    margin-left: 10%;
+    margin: 0 12% 0 10%;
 }
 .footer-part-1 {
     display: flex;
@@ -45,20 +46,20 @@
     justify-content: space-around;
     flex-direction: row;
     width: 70%;
+    padding-top: 10px;
    
     
    
     color: #84aced;
 }
 .footer-part-2 {
-     display: flex;
-    flex: 2.5;
     background-color: bisque;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: space-between;
-    flex-direction: row;
     
+        
+}
+ul li {
+    display: inline;
+    padding: 7px;
 }
 
 .footer-item {
@@ -83,16 +84,22 @@
     color: white;
     flex-direction: column;
     
+    
 }
 .password {
     display: flex;
     flex-direction: column;
     color: white;
+    
 }
 .login {
-    background: #2c5aa0;
+    background: #7ba9f2;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    
+    
+    
+    
 }
 a:link {
    color:#8abef2;
@@ -104,7 +111,7 @@ a:link {
 }
 
 a:visited {
-    color: red;
+    color: #8abef2;
   
 }
 
@@ -138,6 +145,8 @@ a.signup {
 }
 .input {
     padding-right: 5px;
+    padding-top: 17px;
+    
 }
  .signup-2{
   border: 2px solid #c2d6ed;
