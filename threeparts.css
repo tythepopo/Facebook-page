@@ -137,7 +137,7 @@ a:hover {
 a:active {
   
 } 
-a.signup {
+button.signup {
     padding: 10px 50px 10px 50px;
     background-color: forestgreen;
     font-size: 20px;
