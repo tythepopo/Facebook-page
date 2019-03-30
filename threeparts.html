@@ -3,7 +3,7 @@
 <title>Example</title>
 <head>
     <link rel="stylesheet" type="text/css" href="threeparts.css">
-    <script src="Firstfile.js"></script>
+    <script src="firstfile.js"></script>
 </head>
 <style>
     
@@ -53,25 +53,44 @@
             </h4>
             <h4>Find more of what you're looking for with Facebook Search.</h4>
         </div>
-    
-        <div class="part-2">
+            
+        <div>
+            <div class="part-2">
             <h1>Sign Up</h1>
             <h3>It's free and always will be.</h3>
+        </div>
         
             <form>
-                <input class="signup-2" type="text" name="fname" placeholder="First name">
-                <input class="signup-2" type="text" name="lname" placeholder="Last name">
+                <input class="signup-2" type="text" id = "fname" value = "" placeholder="First name">
+                
+               
+                <input class="signup-2" type="text" id ="lname" value = "" placeholder="Last name">
                     <br><br>
 
 
-                <input class="signup-3" type="text" name="phone-or-email" placeholder="Mobile number or Email">
+                <input class="signup-3" type="text" id ="phone" value = ""  placeholder="Mobile number or Email">
                     <br><br>
-                <input class="signup-3" type="text" name="new-password" placeholder="New password">
-            </form>
+                <input class="signup-3" type="password" id="new-password" value="" placeholder="New password">
+            
                
             <h3>Birthday</h3>
-            <form>
-                <select name='day' id='dayddl'>
+                
+                <select name='month' id='month'>
+                <option value='1'>1</option>
+                <option value='2'>2</option>
+                <option value='3'>3</option>
+                <option value='4'>4</option>
+                <option value='5'>5</option>
+                <option value='6'>6</option>
+                <option value='7'>7</option>
+                <option value='8'>8</option>
+                <option value='9'>9</option>
+                <option value='10'>10</option>
+                <option value='11'>11</option>
+                <option value='12'>12</option>
+                </select>
+            
+                <select name='day' id='day';>
                 <option value='1'>1</option>
                 <option value='2'>2</option>
                 <option value='3'>3</option>
@@ -105,25 +124,7 @@
                 <option value='31'>31</option>
                 </select>
 
-
-                <select name='month' id='monthddl'>
-                <option value='1'>1</option>
-                <option value='2'>2</option>
-                <option value='3'>3</option>
-                <option value='4'>4</option>
-                <option value='5'>5</option>
-                <option value='6'>6</option>
-                <option value='7'>7</option>
-                <option value='8'>8</option>
-                <option value='9'>9</option>
-                <option value='10'>10</option>
-                <option value='11'>11</option>
-                <option value='12'>12</option>
-                </select>
-
-
-
-                <select name='day' id='blah'>
+                <select name='year' id="year">
                 <option value='1947'>1947</option>
                 <option value='1948'>1948</option>
                 <option value='1949'>1949</option>
@@ -172,29 +173,34 @@
                 <option value='1992'>1992</option>
                 <option value='1993'>1993</option>
                 </select>
-               
+            
+              
                 
-                <form>
+                
                     
                 <a href="default.asp" target="_blank">Why do I need to provide my birthday?</a>
-                 </form>
+                 
                 <br>
                 <input type="radio" name="gender" value="female"> Female
                 <input type="radio" checked name="gender" value="male"> Male<br>
                 <p style="font-size: 12px">By clicking Sign Up, you agree to our Terms, Data Policy and<br> Cookies Policy. You may receive SMS Notifications from us and<br> can opt out any time.</p>
-            </form>
-    
-            <form action="">
+            
                 
-                <button class ="signup" onclick="myFirst()" >Sign up</button>
+                
+                
+                
+               
+                
+                <input class ="signup" type="button"  onclick="myFirst()" value="Sign up">
                 
                 <br>
                 <br>
 
-                <a href="default.asp" target="_blank">Create a page</a> for celebrity , band or business<p>
+                <a href="default.asp" target="_blank">Create a page</a> for celebrity , band or business
             </form>
+        
         </div>
-    </div>
+        </div>
  </main>
         
 

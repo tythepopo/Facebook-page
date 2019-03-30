@@ -10,7 +10,7 @@
   }
   #main {
     display: flex;
-    flex: 2;
+    flex: 1;
     background-color: #f2f3f4;
     flex-direction: row;
     
@@ -137,7 +137,7 @@ a:hover {
 a:active {
   
 } 
-button.signup {
+input.signup {
     padding: 10px 50px 10px 50px;
     background-color: forestgreen;
     font-size: 20px;
